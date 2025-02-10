@@ -1,0 +1,140 @@
+{
+  "model": "user",
+  "properties": [
+    {
+      "key": "name",
+      "type": "string",
+      "min": 3,
+      "max": 50,
+      "required": true,
+      "placeholder": "Введите ваше имя",
+      "label": "Имя",
+      "description": "Ваше имя будет отображаться в профиле.",
+      "prefix": null,
+      "postfix": null,
+      "beforeIcon": "user-icon",
+      "afterIcon": null,
+      "defaultValue": null,
+      "tags": [
+        "profile",
+        "admin"
+      ],
+      "style": {
+        "width": "100%",
+        "color": "#333",
+        "fontSize": "16px"
+      },
+      "options": null
+    },
+    {
+      "key": "age",
+      "type": "number",
+      "min": 3,
+      "max": 120,
+      "required": false,
+      "placeholder": "Введите ваш возраст",
+      "label": "Возраст",
+      "description": "Возраст будет использоваться в вашем профиле.",
+      "prefix": null,
+      "postfix": " лет",
+      "beforeIcon": null,
+      "afterIcon": "calendar-icon",
+      "defaultValue": 18,
+      "tags": [
+        "profile",
+        "admin",
+        "yearSet"
+      ],
+      "style": {
+        "width": "80px",
+        "color": "#333",
+        "fontSize": "14px"
+      },
+      "options": null
+    },
+    {
+      "key": "gender",
+      "type": "select",
+      "required": true,
+      "placeholder": "Выберите ваш пол",
+      "label": "Пол",
+      "description": "Ваш пол будет зафиксирован в анкете.",
+      "prefix": null,
+      "postfix": null,
+      "beforeIcon": "gender-icon",
+      "afterIcon": null,
+      "defaultValue": "male",
+      "tags": [
+        "profile",
+        "admin"
+      ],
+      "style": {
+        "width": "200px",
+        "color": "#333",
+        "fontSize": "14px"
+      },
+      "options": [
+        {
+          "value": "male",
+          "label": "Мужской"
+        },
+        {
+          "value": "female",
+          "label": "Женский"
+        },
+        {
+          "value": "other",
+          "label": "Другой"
+        }
+      ]
+    },
+    {
+      "key": "bio",
+      "type": "text",
+      "min": 10,
+      "max": 500,
+      "required": false,
+      "placeholder": "Расскажите немного о себе",
+      "label": "Биография",
+      "description": "Короткий текст о себе.",
+      "prefix": null,
+      "postfix": null,
+      "beforeIcon": null,
+      "afterIcon": null,
+      "defaultValue": null,
+      "tags": [
+        "profile"
+      ],
+      "style": {
+        "width": "100%",
+        "color": "#333",
+        "fontSize": "16px"
+      },
+      "options": null
+    },
+    {
+      "key": "newsletter",
+      "type": "checkbox",
+      "required": false,
+      "placeholder": null,
+      "label": "Подписаться на новости",
+      "description": "Получать уведомления и обновления.",
+      "prefix": null,
+      "postfix": null,
+      "beforeIcon": null,
+      "afterIcon": null,
+      "defaultValue": "false",
+      "tags": [
+        "profile",
+        "admin",
+        "marketing"
+      ],
+      "style": {
+        "width": "20px",
+        "color": "#333",
+        "fontSize": "14px"
+      },
+      "options": null
+    }
+  ]
+}
