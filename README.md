@@ -13,6 +13,7 @@
 1) Создаем папку для моделей, например proplangs
 2) Добавляем модель например  userExample.proplang.json  
 3) Подгружаем модель
+4) 
 
 
     model, err := reader.ReadModel("./proplangs/userExample.proplang.json")
@@ -21,7 +22,9 @@
     return
     }
       
+
 4) Валидируем данные по свойству
+
 
 
 	err = validation.ModelPropKeyValidate(model, "name", "t")
@@ -30,7 +33,9 @@
 	}
 
 
+
 5) Валидируем данные по тегу модели
+
 
 
 	err = validation.ModelValidateByTag(model, "name", map[string]interface{}{
