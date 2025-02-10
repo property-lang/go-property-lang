@@ -17,6 +17,5 @@ func main() {
 	//fmt.Println(model)
 	fmt.Println(model.Model)
 	fmt.Println(model)
-	fmt.Println(model.Properties[0].GetFullName())
 
 }

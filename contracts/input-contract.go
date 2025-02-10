@@ -23,6 +23,8 @@ type PropertyContract struct {
 	Options      []OptionPropertyContract `json:"options"` // Используем interface{} для объектов с любым типом
 }
 
+/*
 func (u *PropertyContract) GetFullName() string {
 	return u.Key + " " + u.Type
 }
+*/

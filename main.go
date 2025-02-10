@@ -17,7 +17,7 @@ func main() {
 	//fmt.Println(model)
 	//fmt.Println(model.Model)
 	//fmt.Println(model)
-	fmt.Println(model.Properties[0].GetFullName())
+	fmt.Println(model.Properties[0].Key)
 
 	err = validation.ModelPropKeyValidate(model, "name", "t")
 	if err != nil {
