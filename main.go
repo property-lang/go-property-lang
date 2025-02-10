@@ -24,4 +24,12 @@ func main() {
 		fmt.Println(err)
 	}
 
+	err = validation.ModelValidateByTag(model, "name", map[string]interface{}{
+		"login":  "asfsaf",
+		"name55": "asfasf",
+	})
+	if err != nil {
+		fmt.Println(err)
+	}
+
 }
