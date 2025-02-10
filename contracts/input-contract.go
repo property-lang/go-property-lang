@@ -24,7 +24,13 @@ type PropertyContract struct {
 }
 
 /*
-func (u *PropertyContract) GetFullName() string {
-	return u.Key + " " + u.Type
-}
+	func (u *PropertyContract) GetFullName() string {
+		return u.Key + " " + u.Type
+	}
 */
+func (u *PropertyContract) GetLabel() string {
+	if u.Label != "" {
+		return u.Label
+	}
+	return u.Key
+}

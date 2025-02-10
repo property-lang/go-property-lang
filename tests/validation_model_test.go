@@ -1,7 +1,8 @@
-package validation
+package tests
 
 import (
 	"go-property-lang/contracts"
+	"go-property-lang/pkg/validation"
 	"testing"
 )
 
@@ -14,12 +15,12 @@ func TestModelPropKeyValidate(t *testing.T) {
 
 	model := contracts.ModelContract{Properties: props}
 
-	err := ModelPropKeyValidate(model, "name", "hello")
+	err := validation.ModelPropKeyValidate(model, "name", "hello")
 	if err != nil {
 		t.Errorf("ожидалось, что ошибка не вернётся, но получили: %s", err)
 	}
 
-	err = ModelPropKeyValidate(model, "name2", "hello")
+	err = validation.ModelPropKeyValidate(model, "name2", "hello")
 	if err == nil {
 		t.Errorf("ожидалось, что ошибка не вернётся, но получили: %s", err)
 	}
