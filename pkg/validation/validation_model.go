@@ -2,7 +2,7 @@ package validation
 
 import (
 	"fmt"
-	"go-property-lang/contracts"
+	"github.com/property-lang/go-property-lang/contracts"
 )
 
 func ModelPropKeyValidate(contract contracts.ModelContract, keyProperty string, stringData string) error {

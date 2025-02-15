@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-property-lang/pkg/reader"
+	"github.com/property-lang/go-property-lang/pkg/reader"
 )
 
 func main() {

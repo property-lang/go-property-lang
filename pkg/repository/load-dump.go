@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"go-property-lang/contracts"
-	"go-property-lang/pkg/reader"
+	"github.com/property-lang/go-property-lang/contracts"
+	"github.com/property-lang/go-property-lang/pkg/reader"
 )
 
 func LoadAllModels(path string) ([]contracts.ModelContract, error) {

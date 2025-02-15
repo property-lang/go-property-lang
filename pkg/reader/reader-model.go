@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"go-property-lang/contracts"
+	"github.com/property-lang/go-property-lang/contracts"
 	"os"
 )
 

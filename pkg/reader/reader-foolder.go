@@ -3,7 +3,7 @@ package reader
 import (
 	"errors"
 	"fmt"
-	"go-property-lang/contracts"
+	"github.com/property-lang/go-property-lang/contracts"
 	"os"
 	"path/filepath"
 )

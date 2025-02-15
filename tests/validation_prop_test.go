@@ -1,8 +1,8 @@
 package tests
 
 import (
-	"go-property-lang/contracts"
-	"go-property-lang/pkg/validation"
+	"github.com/property-lang/go-property-lang/contracts"
+	"github.com/property-lang/go-property-lang/pkg/validation"
 	"testing"
 )
 

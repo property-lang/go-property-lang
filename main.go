@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"go-property-lang/pkg/reader"
-	"go-property-lang/pkg/validation"
+	"github.com/property-lang/go-property-lang/pkg/reader"
+	"github.com/property-lang/go-property-lang/pkg/validation"
 )
 
 func main() {

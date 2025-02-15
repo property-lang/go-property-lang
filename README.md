@@ -7,7 +7,7 @@
 
 # Подключение
 
-    go get https://github.com/property-lang/go-property-lang
+    go get github.com/property-lang/go-property-lang
 
 
 1) Создаем папку для моделей, например proplangs

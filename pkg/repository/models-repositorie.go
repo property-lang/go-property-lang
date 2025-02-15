@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"go-property-lang/contracts"
+	"github.com/property-lang/go-property-lang/contracts"
 )
 
 var ModelsLoaded []contracts.ModelContract
